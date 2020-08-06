@@ -10,5 +10,7 @@ $ php artisan -V
 
 # confirm
 $ docker-compose exec app php -v
+
 $ docker-compose exec web nginx -v
+
 $ docker-compose exec db mysql -V
