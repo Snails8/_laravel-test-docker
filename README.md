@@ -2,6 +2,10 @@
 
 # install laravel
 
+$ docker-compose exec app composer create-project --prefer-dist "laravel/laravel=6.*" .
+
+# another 
+
 $ docker-compose exec app ash
 
 $ composer install
