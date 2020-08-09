@@ -15,7 +15,7 @@ ENV TZ=UTC \
   DB_HOST=db \
   DB_DATABASE=laravel_local \
   DB_USERNAME=phper \
-  DB_PASSWORD=secret
+  DB_PASSWORD=Abcd1234@
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
